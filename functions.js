@@ -23,3 +23,5 @@ function process(f){
 process(function(data){
     console.log("received data ->", data )
 })
+
+//a function which is passed as a parameter to another function is called callback
