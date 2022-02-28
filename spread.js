@@ -22,3 +22,6 @@ console.log(citizen)
 human={...person,state:'Maharashtra'}
 console.log(human)
 console.log(person)
+x=[1,2,3]
+b=[...x,{...person,name:"Roger"}]
+console.log(b)
