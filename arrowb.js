@@ -12,15 +12,16 @@ class Benefit{
                 this.item=data
         }.bind(this))*/
 
-        valueProvider(data=>this.item=data)
+        this.valueProvider(data=>this.item=data)
 
 
     }
+    valueProvider(callback){
+        callback("L  O N D O N")
+    }
 }
 
-function valueProvider(callback){
-    callback("L  O N D O N")
-}
+
 
 obj=new Benefit("India")
 obj.show()
