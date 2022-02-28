@@ -16,8 +16,9 @@ member.desig="manager"
 console.log(member)
 console.log(emp)
 
-const {sno:id,name,city,desig}=emp
+var {sno:id,name,city,desig}=emp
 
+//name="raj"
 console.log(id,name,city,desig)
 
 function check({a,b,c}){
