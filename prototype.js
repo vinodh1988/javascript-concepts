@@ -10,4 +10,6 @@ Student.prototype.show=function(){
 
 obj=new Student(1,"Ravi")
 obj.show()
+
+
 //Student(2,"ram")
